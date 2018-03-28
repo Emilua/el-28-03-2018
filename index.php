@@ -17,5 +17,5 @@ spl_autoload_register(function($class) {
 //$human = new Human('вася', 'пупкин', '22', 'днепр, троицкий , 21г');
 //echo $human;
 
-$sudent=new Student('Коля', 'Тросточкин', 33, 'Киев, Банковска, 44');
+$sudent=new Student('Коля', 'Тросточкин', 33, 'Киев, Банковска, 44','php18-el','ealk@ljkfa.com');
 echo $sudent;
