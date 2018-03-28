@@ -7,7 +7,13 @@ spl_autoload_register(function($class) {
     }
     return false;
 });
-$testObj=new Test();
-$testObj->name='Vasya';
-var_dump($testObj);
-echo($testObj->name);
+//$testObj=new Test();
+//$testObj->name='Vasya';
+//var_dump($testObj);
+//echo($testObj->name);
+//===============================================================================
+
+
+$human = new Human('вася', 'пупкин', '22', 'днепр, троицкий , 21г');
+echo $human;
+
